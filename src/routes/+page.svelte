@@ -1,7 +1,7 @@
 <script>
     import Masonry from 'svelte-bricks'
 
-    let nItems = 6
+    let nItems = 9
     $: items = [...Array(nItems).keys()]
 
     let [minColWidth, maxColWidth, gap] = [200, 200, 20]
